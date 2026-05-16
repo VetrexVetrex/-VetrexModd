@@ -1,0 +1,26 @@
+{
+  "type": "GenericCrafter",
+  "name": "Iron Melter",
+  "displayName": "Плавильня железа",
+  "description": "Оно прожгло землю.",
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 45.0,
+  "consumes": {
+    "power": 4.5,
+    "items": [
+      { "item": "iron", "amount": 2 }
+    ]
+  },
+  "outputLiquid": {
+    "liquid": "molten-iron",
+    "amount": 0.3
+  },
+  "requirements": [
+    { "item": "iron", "amount": 50 },
+    { "item": "copper", "amount": 80 }
+  ],
+  "category": "crafting",
+  "research": "iron-wall"
+}

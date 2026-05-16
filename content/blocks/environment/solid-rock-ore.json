@@ -1,0 +1,5 @@
+{
+  "type": "OreBlock",
+  "itemDrop": "solid-rock",
+  "variants": 3
+}

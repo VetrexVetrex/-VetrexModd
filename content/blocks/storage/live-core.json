@@ -1,0 +1,20 @@
+{
+  "type": "CoreBlock",
+  "name": "Live Core",
+  "displayName": "Живое Ядро",
+  "description": "живое ядро?",
+  "size": 3,
+  "health": 6000,
+  "itemCapacity": 4000,
+  "unitCapModifier": 12,
+  "unitType": "alpha",
+  "requirements": [
+    { "item": "iron", "amount": 1000 },
+    { "item": "gold", "amount": 500 },
+    { "item": "life-stone", "amount": 50 }
+  ],
+  "category": "effect",
+  "hasPower": true,
+  "flashHit": true,
+  "thrusterLength": 0
+}

@@ -1,0 +1,25 @@
+{
+  "type": "PowerTurret",
+  "name": "Pulse",
+  "displayName": "Импульс",
+  "description": "Электрическая пушка. Без энергии стрелять не будет.",
+  "size": 2,
+  "health": 850,
+  "range": 165.0,
+  "reload": 5.0,
+  "powerUse": 6.5,
+  "shootSound": "laser",
+  "shootType": {
+    "type": "LaserBulletType",
+    "damage": 65.0,
+    "length": 165.0,
+    "width": 8.0,
+    "colors": ["9cd8e1", "bcebf2", "ffffff"]
+  },
+  "requirements": [
+    { "item": "iron", "amount": 60 },
+    { "item": "gold", "amount": 40 },
+    { "item": "diamond", "amount": 15 }
+  ],
+  "category": "turret"
+}

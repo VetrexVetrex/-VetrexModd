@@ -1,0 +1,38 @@
+{
+  "type": "NuclearReactor",
+  "name": "Diamond Reactor",
+  "displayName": "Алмазный реактор",
+  "description": "Вырабатывает энергию из алмазов. Требует охлаждения жидким золотом, иначе рванет.",
+  "size": 3,
+  "health": 1400,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemDuration": 360.0,
+  "powerProduction": 25.0,
+  "heating": 0.02,
+  "fuelItem": "diamond",
+  "consumes": {
+    "items": [],
+    "liquid": {
+      "liquid": "liquid-gold",
+      "amount": 0.15
+    }
+  },
+  "requirements": [
+    { "item": "iron", "amount": 150 },
+    { "item": "gold", "amount": 100 },
+    { "item": "diamond", "amount": 40 }
+  ],
+  "category": "power",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      { "type": "DrawDefault" },
+      {
+        "type": "DrawRotator",
+        "suffix": "-rotator",
+        "rotateSpeed": 4.0
+      }
+    ]
+  }
+}

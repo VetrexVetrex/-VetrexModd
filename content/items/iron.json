@@ -1,0 +1,14 @@
+{
+  "type": "item",
+  "name": "Iron",
+  "displayName": "Железо",
+  "description": "Тяжелый и прочный базовый металл. Используется для создания крепкой брони и продвинутых конвейеров.",
+  "color": "989aa6",
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "radioactivity": 0.0,
+  "charge": 0.0,
+  "cost": 1.0,
+  "hardness": 2,
+  "hidden": false
+}

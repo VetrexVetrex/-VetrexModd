@@ -1,0 +1,13 @@
+{
+  "type": "item",
+  "name": "Precious Cube",
+  "displayName": "Драгоценный куб",
+  "description": "Ультра-дорогой куб из золота и алмазов. Используется как элитный боеприпас.",
+  "color": "f3ca40",
+  "flammability": 0.0,
+  "explosiveness": 0.5,
+  "radioactivity": 0.0,
+  "charge": 1.0,
+  "cost": 8.0,
+  "hidden": false
+}

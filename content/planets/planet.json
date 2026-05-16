@@ -1,0 +1,34 @@
+{
+  "localizedName": "Живая Планета",
+  "description": "что за зачем",
+  "mesh": {
+    "type": "NoiseMesh",
+    "divisions": 4,
+    "seed": 84,
+    "radius": 0.8,
+    "planet": "live-planet",
+    "color1": "ff6b8b",
+    "color2": "5a5e64"
+  },
+  "cloudMesh": {
+    "type": "HexSkyMesh",
+    "seed": 4,
+    "speed": 0.6,
+    "radius": 0.05,
+    "divisions": 3,
+    "color": "ffffff44"
+  },
+  "generator": {
+    "type": "PlanetGenerator"
+  },
+  "sectorSize": 1,
+  "startSector": 0,
+  "atmosphereColor": "ff6b8b",
+  "atmosphereRad": 0.12,
+  "accessible": true,
+  "alwaysUnlocked": true,
+  "itemWhitelist": [
+    "copper", "lead", "scrap", "coal", "graphite", "thorium",
+    "iron", "gold", "diamond", "life-stone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Large Diamond Wall",
+  "displayName": "Большая Алмазная стена",
+  "description": "Кристаллическая стена. Отражает вспышки и отлично держит лазерный урон.",
+  "health": 9600,
+  "size": 2,
+  "absorbLasers": true,
+  "requirements": [
+    { "item": "diamond", "amount": 48 }
+  ],
+  "category": "defense"
+}

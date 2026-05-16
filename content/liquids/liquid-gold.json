@@ -1,0 +1,11 @@
+{
+  "type": "liquid",
+  "name": "Liquid Gold",
+  "displayName": "Жидкое золото",
+  "description": "Расплавленное золото высокого давления. Используется для охлаждения тяжелых алмазных систем.",
+  "color": "f3ca40",
+  "temperature": 0.8,
+  "viscosity": 0.4,
+  "heatCapacity": 2.1,
+  "hidden": false
+}

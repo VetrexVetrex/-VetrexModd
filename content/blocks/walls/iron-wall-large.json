@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Large Iron Wall",
+  "displayName": "Большая железная стена",
+  "description": "Дешевая оборонительная стена из чистого железа. Обладает повышенной прочностью.",
+  "health": 1600,
+  "size": 2,
+  "requirements": [
+    { "item": "iron", "amount": 24 }
+  ],
+  "category": "defense",
+  "research": "copper-wall"
+}

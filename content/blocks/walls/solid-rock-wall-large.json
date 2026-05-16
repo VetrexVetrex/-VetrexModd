@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Large Solid Rock Wall",
+  "displayName": " Большая Стена из твердой породы",
+  "description": "Оооочень прочная оборонительная стена. Способна выдерживать колоссальный напор врагов.",
+  "health": 15200,
+  "size": 2,
+  "requirements": [
+    { "item": "solid-rock", "amount": 60 }
+  ],
+  "category": "defense"
+}
+

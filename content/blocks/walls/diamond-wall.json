@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Diamond Wall",
+  "displayName": "Алмазная стена",
+  "description": "Кристаллическая стена. Отражает вспышки и отлично держит лазерный урон.",
+  "health": 2400,
+  "size": 1,
+  "absorbLasers": true,
+  "requirements": [
+    { "item": "diamond", "amount": 12 }
+  ],
+  "category": "defense"
+}

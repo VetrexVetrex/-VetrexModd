@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Iron Wall",
+  "displayName": "Железная стена",
+  "description": "Дешевая оборонительная стена из чистого железа. Обладает повышенной прочностью.",
+  "health": 400,
+  "size": 1,
+  "requirements": [
+    { "item": "iron", "amount": 6 }
+  ],
+  "category": "defense",
+  "research": "copper-wall"
+}

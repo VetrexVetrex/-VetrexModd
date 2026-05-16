@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Solid Rock Wall",
+  "displayName": "Стена из твердой породы",
+  "description": "Оооочень прочная оборонительная стена. Способна выдерживать колоссальный напор врагов.",
+  "health": 3800,
+  "size": 1,
+  "requirements": [
+    { "item": "solid-rock", "amount": 15 }
+  ],
+  "category": "defense"
+}
+

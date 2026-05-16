@@ -1,0 +1,14 @@
+{
+  "type": "item",
+  "name": "Diamond",
+  "displayName": "Алмаз",
+  "description": "Сверхпрочный кристалл из комментариев. Требует огромной мощности лазера для извлечения. сделал:@catfftt",
+  "color": "9cd8e1",
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "radioactivity": 0.0,
+  "charge": 0.0,
+  "cost": 5.0,
+  "hardness": 5,
+  "hidden": false
+}

@@ -1,0 +1,14 @@
+{
+  "type": "item",
+  "name": "Gold",
+  "displayName": "Золото",
+  "description": "Мягкий, но невероятно дорогой металл из комментариев. Обладает отличной электропроводностью.",
+  "color": "f3ca40",
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "radioactivity": 0.0,
+  "charge": 2.0,
+  "cost": 5.0,
+  "hardness": 2,
+  "hidden": false
+}

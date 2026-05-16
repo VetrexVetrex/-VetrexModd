@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "name": "Molten Iron",
+  "displayName": "Расплавленное железо",
+  "description": "ЭТО РЕАЛЬНО ЖИДКОЕ ЖЕЛЕЗО? я описание не придумал сорри.",
+  "color": "ea5e20",
+  "flammability": 0.0,
+  "temperature": 1.5,
+  "viscosity": 0.7,
+  "heatCapacity": 0.2,
+  "hidden": false
+}

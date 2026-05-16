@@ -1,0 +1,67 @@
+{
+  "type": "legs",
+  "name": "Black Hole Spider",
+  "displayName": "Чёрная Дыра на Ножках",
+  "description": "а что вы ожидали?",
+  "health": 15000,
+  "armor": 25,
+  "speed": 0.55,
+  "drag": 0.1,
+  "hitSize": 32,
+  "rotateSpeed": 1.5,
+  "legCount": 6,
+  "legLength": 24,
+  "legPairOffset": 3,
+  "legExtension": -2,
+  "legBaseAngle": 45,
+  "legSpeed": 0.2,
+  "rippleScale": 2.5,
+  "legSplashDamage": 80,
+  "legSplashRange": 20,
+  "deathExplosionEffect": "scatheExplosion",
+  "deathExplosionDamage": 2500,
+  "deathExplosionRadius": 120,
+  "weapons": [
+    {
+      "name": "black-hole-artillery",
+      "reload": 100,
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "shootSound": "railgun",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "damage": 800,
+        "speed": 3.2,
+        "lifetime": 80,
+        "width": 28,
+        "height": 28,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "frontColor": "000000",
+        "backColor": "a45ee5",
+        "splashDamage": 700,
+        "splashDamageRadius": 60,
+        "despawnEffect": "scatheExplosion",
+        "hitEffect": "reactorExplosion"
+      }
+    },
+     {
+      "name": "atom-vampire",
+      "reload": 12,
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "shootSound": "spark",
+      "range": 24,
+      "shootCone": 360,
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 300,
+        "lightningLength": 8,
+        "lifesteal": 0.75,
+        "collidesTeam": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "Gold Melter",
+  "displayName": "Золотой плавитель",
+  "description": "Оно прожгло небо.",
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 30.0,
+  "consumes": {
+    "power": 3.0,
+    "items": [
+      { "item": "gold", "amount": 2 }
+    ]
+  },
+  "outputLiquid": {
+    "liquid": "liquid-gold",
+    "amount": 0.2
+  },
+  "requirements": [
+    { "item": "iron", "amount": 60 },
+    { "item": "gold", "amount": 30 }
+  ],
+  "category": "crafting"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "item",
+  "name": "Life Stone",
+  "displayName": "Камень жизни",
+  "description": "Легендарный артефакт из комментариев. Пульсирует живой энергией.",
+  "color": "ff6b8b",
+  "charge": 3.0,
+  "cost": 10.0
+}

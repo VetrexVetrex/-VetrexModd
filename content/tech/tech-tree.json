@@ -1,0 +1,56 @@
+{
+  "parent": "core-nucleus",
+  "node": "live-core",
+  "planet": "live-planet",
+  "objectives": [],
+  "research": {
+    "root": true,
+    "name": "live-core",
+    "requirements": [
+      { "item": "copper", "amount": 1000 }
+    ],
+    "nodes": [
+      {
+        "name": "iron",
+        "requirements": [{ "item": "copper", "amount": 500 }],
+        "nodes": [
+          {
+            "name": "iron-wall",
+            "requirements": [{ "item": "iron", "amount": 100 }]
+          },
+          {
+            "name": "iron-melter",
+            "requirements": [{ "item": "iron", "amount": 200 }]
+          }
+        ]
+      },
+      {
+        "name": "gold-ore",
+        "requirements": [{ "item": "iron", "amount": 400 }],
+        "nodes": [
+          {
+            "name": "gold-melter",
+            "requirements": [{ "item": "gold", "amount": 300 }]
+          }
+        ]
+      },
+      {
+        "name": "diamond",
+        "requirements": [{ "item": "gold", "amount": 500 }],
+        "nodes": [
+          {
+            "name": "diamond-drill",
+            "requirements": [{ "item": "diamond", "amount": 150 }]
+          },
+          {
+            "name": "diamond-reactor",
+            "requirements": [
+              { "item": "gold", "amount": 500 },
+              { "item": "diamond", "amount": 200 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

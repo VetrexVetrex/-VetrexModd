@@ -1,0 +1,30 @@
+{
+  "type": "Separator",
+  "name": "Rock Separator",
+  "displayName": "Переработчик породы",
+  "description": "Дробит твердую породу и разделяет ее на металлы. Камень Жизни падает ультра-редко.",
+  "size": 3,
+  "hasItems": true,
+  "craftTime": 20.0,
+  "consumes": {
+    "power": 3.5,
+    "items": [
+      { "item": "solid-rock", "amount": 1 }
+    ]
+  },
+  "results": [
+    { "item": "copper", "amount": 4 },
+    { "item": "scrap", "amount": 3 },
+    { "item": "graphite", "amount": 2 },
+    { "item": "iron", "amount": 3 },
+    { "item": "gold", "amount": 2 },
+    { "item": "thorium", "amount": 1 },
+    { "item": "diamond", "amount": 1 },
+    { "item": "life-stone", "amount": 1 }
+  ],
+  "requirements": [
+    { "item": "iron", "amount": 80 },
+    { "item": "gold", "amount": 40 }
+  ],
+  "category": "crafting"
+}

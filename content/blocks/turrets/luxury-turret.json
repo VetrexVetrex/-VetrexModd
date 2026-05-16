@@ -1,0 +1,36 @@
+{
+  "type": "ItemTurret",
+  "name": "Luxury",
+  "displayName": "Роскошь",
+  "description": "Стреляет цельными драгоценными кубами. Буквально закидывает врагов деньгами.",
+  "size": 3,
+  "health": 1200,
+  "range": 220.0,
+  "reload": 40.0,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "precious-cube": {
+      "type": "ArtilleryBulletType",
+      "damage": 180,
+      "speed": 4.0,
+      "lifetime": 55.0,
+      "width": 14.0,
+      "height": 14.0,
+      "shrinkX": 0.0,
+      "shrinkY": 0.0,
+      "frontColor": "9cd8e1",
+      "backColor": "f3ca40",
+      "splashDamage": 80.0,
+      "splashDamageRadius": 40.0,
+      "ammoMultiplier": 1,
+      "hitEffect": "blastExplosion"
+    }
+  },
+  "requirements": [
+    { "item": "iron", "amount": 120 },
+    { "item": "gold", "amount": 80 },
+    { "item": "diamond", "amount": 30 }
+  ],
+  "category": "turret",
+  "research": "iron-wall"
+}
