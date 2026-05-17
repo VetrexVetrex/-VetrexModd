@@ -1,0 +1,12 @@
+{
+  "type": "item",
+  "name": "Explosive-Incendiary Mixture",
+  "displayName": "Взрывчато-поджигающая смесь",
+  "description": "Кабум",
+  "color": "e65c00",
+  "flammability": 4.0,
+  "explosiveness": 5.0,
+  "charge": 0.0,
+  "cost": 2.5,
+  "hidden": false
+}

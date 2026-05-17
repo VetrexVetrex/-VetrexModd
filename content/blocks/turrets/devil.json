@@ -1,0 +1,81 @@
+{
+  "type": "ItemTurret",
+  "name": "Devil",
+  "displayName": "Дьявол",
+  "description": "Шашлычок",
+ "size": 3,
+  "health": 1400,
+  "range": 240.0,
+  "reload": 10.0,
+  "shootSound": "torch",
+  "ammoTypes": {
+    "coal": {
+      "type": "FireBulletType",
+      "damage": 40,
+      "speed": 5.5,
+      "lifetime": 45.0,
+      "radius": 8.0,
+      "status": "burning",
+      "statusDuration": 200.0,
+      "ammoMultiplier": 3
+    },
+    "pyratite": {
+      "type": "FireBulletType",
+      "damage": 75,
+      "speed": 6.0,
+      "lifetime": 40.0,
+      "radius": 10.0,
+      "frontColor": "ffaa00",
+      "backColor": "ff3300",
+      "status": "burning",
+      "statusDuration": 350.0,
+      "ammoMultiplier": 4
+    },
+    "blast-compound": {
+      "type": "ArtilleryBulletType",
+      "damage": 90,
+      "speed": 5.2,
+      "lifetime": 46.1,
+      "width": 12.0,
+      "height": 12.0,
+      "splashDamage": 110,
+      "splashDamageRadius": 40,
+      "status": "blasted",
+      "statusDuration": 180.0,
+      "frontColor": "ff5555",
+      "ammoMultiplier": 1
+    },
+    "thermo-explosive": {
+      "type": "ArtilleryBulletType",
+      "damage": 250,
+      "speed": 5.5,
+      "lifetime": 43.6,
+      "width": 16.0,
+      "height": 16.0,
+      "splashDamage": 300,
+      "splashDamageRadius": 60,
+      "status": "burning",
+      "statusDuration": 600.0,
+      "puddleLiquid": "slag",
+      "puddleAmount": 40.0,
+      "frontColor": "ff0000",
+      "backColor": "b30000",
+      "despawnEffect": "reactorExplosion",
+      "hitEffect": "reactorExplosion",
+      "ammoMultiplier": 2
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 250 },
+    { "item": "lead", "amount": 180 },
+    { "item": "graphite", "amount": 90 }
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "scorch",
+    "requirements": [
+      { "item": "copper", "amount": 2500 },
+      { "item": "lead", "amount": 1500 }
+    ]
+  }
+}

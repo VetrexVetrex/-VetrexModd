@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Mixture Mixer",
+  "displayName": "Смеситель взрывчато-поджигающей смеси",
+  "description": "это пипец",
+"size": 2,
+  "hasItems": true,
+  "craftTime": 40.0,
+  "consumes": {
+    "power": 1.2,
+    "items": [
+      { "item": "pyratite", "amount": 1 },
+      { "item": "blast-compound", "amount": 1 }
+    ]
+  },
+  "outputItem": {
+    "item": "thermo-explosive",
+    "amount": 1
+  },
+  "requirements": [
+    { "item": "copper", "amount": 120 },
+    { "item": "lead", "amount": 80 },
+    { "item": "silicon", "amount": 40 }
+  ],
+  "category": "crafting",
+  "research": {
+   "parent": "blast-mixer",
+    "requirements": [
+      { "item": "copper", "amount": 1500 },
+      { "item": "lead", "amount": 1000 },
+      { "item": "silicon", "amount": 500 }
+    ]
+  }
+}
