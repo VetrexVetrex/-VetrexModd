@@ -47,12 +47,12 @@
     },
     "thermo-explosive": {
       "type": "ArtilleryBulletType",
-      "damage": 250,
+      "damage": 220,
       "speed": 5.5,
       "lifetime": 43.6,
       "width": 16.0,
       "height": 16.0,
-      "splashDamage": 300,
+      "splashDamage": 220,
       "splashDamageRadius": 60,
       "status": "burning",
       "statusDuration": 600.0,
@@ -60,8 +60,6 @@
       "puddleAmount": 40.0,
       "frontColor": "ff0000",
       "backColor": "b30000",
-      "despawnEffect": "reactorExplosion",
-      "hitEffect": "reactorExplosion",
       "ammoMultiplier": 2
     }
   },
