@@ -1,0 +1,10 @@
+{
+  "type": "SectorPreset",
+  "localizedName": "Альтернативная жизнь",
+  "description": "хотите придумайте я устал придумывать",
+  "planet": "planet",
+  "sector": 0,
+  "difficulty": 4,
+  "alwaysUnlocked": true,
+  "captureWave": 20
+}

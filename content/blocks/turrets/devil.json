@@ -60,6 +60,8 @@
       "puddleAmount": 40.0,
       "frontColor": "ff0000",
       "backColor": "b30000",
+      "despawnEffect": "scatheExplosion",
+      "hitEffect": "blastExplosion",
       "ammoMultiplier": 2
     }
   },
