@@ -1,0 +1,24 @@
+{
+  "type": "AttributeCrafter",
+  "name": "Siphon",
+  "description": "Бурит",
+  "size": 3,
+  "hasLiquids": true,
+  "liquidCapacity": 50.0,
+  "craftTime": 15.0,
+  "baseEfficiency": 0.0,
+  "attribute": "steam",
+  "minEfficiency": 1.0,
+  "consumes": {
+    "power": 1.0
+  },
+  "outputLiquid": {
+    "liquid": "methane",
+    "amount": 0.2
+  },
+  "requirements": [
+    { "item": "iron", "amount": 50 },
+    { "item": "gold", "amount": 15 }
+  ],
+  "category": "production"
+}

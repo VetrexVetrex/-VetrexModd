@@ -1,0 +1,21 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Gas Generator",
+  "description": "Сжигает метан",
+  "size": 2,
+  "hasLiquids": true,
+  "liquidCapacity": 30.0,
+  "powerProduction": 4.5,
+  "itemDuration": 60.0,
+  "consumes": {
+    "liquid": {
+      "liquid": "methane",
+      "amount": 0.1
+    }
+  },
+  "requirements": [
+    { "item": "iron", "amount": 80 },
+    { "item": "gold", "amount": 30 }
+  ],
+  "category": "power"
+}

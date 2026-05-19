@@ -1,0 +1,41 @@
+{
+  "type": "LiquidTurret",
+  "name": "gaser",
+  "description": "...",
+  "size": 3,
+  "health": 650,
+  "range": 320.0,
+  "reload": 12.0,
+  "hasLiquids": true,
+  "liquidCapacity": 50.0,
+  "shootSound": "sap",
+  "ammoTypes": {
+    "methane": {
+      "type": "FlakBulletType",
+      "damage": 50,
+      "speed": 6.0,
+      "lifetime": 53.4,
+      "width": 16.0,
+      "height": 16.0,
+      "shrinkX": 0.0,
+      "shrinkY": 0.0,
+      "frontColor": "dfedd6",
+      "backColor": "52a332",
+      "splashDamage": 120,
+      "splashDamageRadius": 50,
+      "status": "burning",
+      "statusDuration": 240.0,
+      "puddleLiquid": "slag",
+      "puddleAmount": 20.0,
+      "makeFire": true,
+      "collidesGround": true,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "scatheExplosion"
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 80 },
+    { "item": "lead", "amount": 40 }
+  ],
+  "category": "turret"
+}

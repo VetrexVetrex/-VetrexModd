@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "name": "Methane",
+  "description": "...придумайте описание если хотите",
+  "gas": true,
+  "color": "dfedd6",
+  "flammability": 3.5,
+  "explosiveness": 1.2,
+  "temperature": 0.5,
+  "heatCapacity": 0.4,
+  "hidden": false
+}
