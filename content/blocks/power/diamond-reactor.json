@@ -1,38 +1,27 @@
 {
-  "type": "NuclearReactor",
-  "name": "Diamond Reactor",
+  "type": "ImpactReactor",
+  "name": "diamond-reactor",
   "displayName": "Алмазный реактор",
-  "description": "Вырабатывает энергию из алмазов. Требует охлаждения жидким золотом, иначе рванет.",
+  "description": "Вырабатывает колоссальное количество энергии из алмазов. Требует постоянного охлаждения жидким золотом.",
   "size": 3,
   "health": 1400,
   "hasItems": true,
   "hasLiquids": true,
   "itemDuration": 360.0,
-  "powerProduction": 25.0,
-  "heating": 0.02,
-  "fuelItem": "diamond",
-  "consumes": {
-    "items": [],
-    "liquid": {
-      "liquid": "liquid-gold",
-      "amount": 0.15
-    }
+  "powerProduction": 45.0,
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.08,
+  "consume": {
+    "power": 5.0,
+    "items": [
+      "vetrexcraft-diamond/1"
+    ],
+    "liquid": "vetrexcraft-liquid-gold/0.2"
   },
   "requirements": [
-    { "item": "iron", "amount": 150 },
-    { "item": "gold", "amount": 100 },
-    { "item": "diamond", "amount": 40 }
+    "vetrexcraft-iron/150",
+    "vetrexcraft-gold/100",
+    "vetrexcraft-diamond/40"
   ],
-  "category": "power",
-  "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-      { "type": "DrawDefault" },
-      {
-        "type": "DrawRotator",
-        "suffix": "-rotator",
-        "rotateSpeed": 4.0
-      }
-    ]
-  }
+  "category": "power"
 }

@@ -1,29 +1,23 @@
 {
   "type": "ItemTurret",
-  "name": "Devil",
+  "name": "devil",
   "displayName": "Дьявол",
-  "description": "Шашлычок",
- "size": 3,
-  "health": 1400,
-  "range": 240.0,
-  "reload": 10.0,
-  "shootSound": "torch",
+  "description": "шашлычок 2",
+  "size": 3,
+  "health": 3500,
+  "range": 280,
+  "reload": 45.0,
+  "shootCone": 15,
+  "rotateSpeed": 3.5,
+  "recoil": 4.0,
+  "shake": 4.5,
+  "targetAir": false,
+  "shootSound": "bang",
   "ammoTypes": {
-    "coal": {
-      "type": "FireBulletType",
-      "damage": 40,
-      "speed": 5.5,
-      "lifetime": 45.0,
-      "radius": 8.0,
-      "status": "burning",
-      "statusDuration": 200.0,
-      "ammoMultiplier": 3
-    },
     "pyratite": {
-      "type": "FireBulletType",
       "damage": 75,
       "speed": 6.0,
-      "lifetime": 40.0,
+      "lifetime": 46.0,
       "radius": 10.0,
       "frontColor": "ffaa00",
       "backColor": "ff3300",
@@ -35,7 +29,7 @@
       "type": "ArtilleryBulletType",
       "damage": 90,
       "speed": 5.2,
-      "lifetime": 46.1,
+      "lifetime": 53.0,
       "width": 12.0,
       "height": 12.0,
       "splashDamage": 110,
@@ -45,11 +39,11 @@
       "frontColor": "ff5555",
       "ammoMultiplier": 1
     },
-    "thermo-explosive": {
+    "vetrexcraft-thermo-explosive": {
       "type": "ArtilleryBulletType",
       "damage": 220,
       "speed": 5.5,
-      "lifetime": 43.6,
+      "lifetime": 50.0,
       "width": 16.0,
       "height": 16.0,
       "splashDamage": 220,
@@ -63,19 +57,36 @@
       "despawnEffect": "scatheExplosion",
       "hitEffect": "blastExplosion",
       "ammoMultiplier": 2
+    },
+    "vetrexcraft-diamond": {
+      "type": "ArtilleryBulletType",
+      "damage": 450,
+      "speed": 8.0,
+      "lifetime": 35.0,
+      "width": 14.0,
+      "height": 18.0,
+      "splashDamage": 300,
+      "splashDamageRadius": 50,
+      "frontColor": "93c5fd",
+      "backColor": "2563eb",
+      "despawnEffect": "railHit",
+      "hitEffect": "massiveExplosion",
+      "pierce": true,
+      "pierceCap": 3,
+      "ammoMultiplier": 2
     }
   },
   "requirements": [
-    { "item": "copper", "amount": 250 },
-    { "item": "lead", "amount": 180 },
-    { "item": "graphite", "amount": 90 }
+    "copper/250",
+    "lead/180",
+    "graphite/90"
   ],
   "category": "turret",
   "research": {
     "parent": "scorch",
     "requirements": [
-      { "item": "copper", "amount": 2500 },
-      { "item": "lead", "amount": 1500 }
+      "copper/2500",
+      "lead/1500"
     ]
   }
 }
